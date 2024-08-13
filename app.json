@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ScrollingDynasty",
-    "slug": "ScrollingDynasty",
+    "name": "myapp",
+    "slug": "myapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "package": "com.zurizheng.firstproject"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.zurizheng.firstproject"
     },
     "web": {
       "bundler": "metro",
